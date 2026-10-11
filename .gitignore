@@ -1,0 +1,17 @@
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+
+# Generated Prisma client
+/src/generated/
+/generated/
+
+# Local environment files; commit only the example template
+.env
+.env.*
+!.env.example
+
+# Logs and OS/editor files
+*.log
+.DS_Store
